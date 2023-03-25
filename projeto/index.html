@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="bod">
+    <header>
+
+    </header>
+    <section>
+       <h1>Calculadora de resistência</h1>
+        <div id="content1">
+            <div id="resistor">
+                <div class="faixa" id="fx1"></div>
+                <div class="faixa" id="fx2"></div>
+                <div class="faixa" id="fx3"></div>
+                <div class="faixa" id="fx4"></div>
+            </div>
+            <div id="cor">
+                <div class="corF" id="cfx1">
+                    <select name="cor" id="color1" onchange="mudarCor()">
+                        <option value="0">PRETO</option>
+                        <option value="1">MARROM</option>
+                        <option value="2">VERMELHO</option>
+                        <option value="3">LARANJA</option>
+                        <option value="4">AMARELO</option>
+                        <option value="5">VERDE</option>
+                        <option value="6">AZUL</option>
+                        <option value="7">VIOLETA</option>
+                        <option value="8">CINZA</option>
+                        <option value="9">BRANCO</option>
+                    </select>
+                </div>
+                <div class="corF" id="cfx2" onchange="mudarCor()">
+                    <select name="cor" id="color2">
+                        <option value="0">PRETO</option>
+                        <option value="1">MARROM</option>
+                        <option value="2">VERMELHO</option>
+                        <option value="3">LARANJA</option>
+                        <option value="4">AMARELO</option>
+                        <option value="5">VERDE</option>
+                        <option value="6">AZUL</option>
+                        <option value="7">VIOLETA</option>
+                        <option value="8">CINZA</option>
+                        <option value="9">BRANCO</option>
+                    </select>
+                </div>
+                <div class="corF" id="cfx3" onchange="mudarCor()">
+                    <select name="cor" id="color3">
+                        <option value="1">PRETO</option>
+                        <option value="10">MARROM</option>
+                        <option value="100">VERMELHO</option>
+                        <option value="1000">LARANJA</option>
+                        <option value="10000">AMARELO</option>
+                        <option value="100000">VERDE</option>
+                        <option value="1000000">AZUL</option>
+                        <option value="10000000">VIOLETA</option>
+                        <option value="0.1">DOURADO</option>
+                        <option value="0.01">PRATA</option>
+                    </select>
+                </div>
+                    <div class="corF" id="cfx4" onchange="mudarCor()">
+                        <select name="cor" id="color4">
+                            <option value="1">MARROM</option>
+                            <option value="2">VERMELHO</option>
+                            <option value="0.5">VERDE</option>
+                            <option value="0.25">AZUL</option>
+                            <option value="0.1">VIOLETA</option>
+                            <option value="0.05">CINZA</option>
+                            <option value="5">DOURADO</option>
+                            <option value="10">PRATA</option>
+                            <option value="20">SEM COR</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="resultado"></div>
+
+    </section>
+    <footer>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

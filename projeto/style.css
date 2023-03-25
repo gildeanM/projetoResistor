@@ -1,0 +1,46 @@
+body{
+    background-image: url(walpProject01.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: xx-large;
+}
+
+#resistor{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    background-color:#FDD09F;
+}
+#content1{
+    width: 80vw;
+    position: fixed;
+    right: 10vw;
+    top: 10vh;    
+}
+#cor{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#fx1,#fx2,#fx3{
+    background-color: black;
+}
+#fx4{
+    background-color: brown;
+    
+}
+#fx1,#fx2,#fx3,#fx4{
+    width: 5vw;
+    height: 100%;
+}
+
+#resultado{
+    font-size:xx-large;
+    position: fixed;
+    top: 50vh;
+    right: calc(50vw - 59.1px);
+}
